@@ -8,16 +8,19 @@
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <!-- header -->
     <header>
-        <div class="wraper-header">
+        <div class="wrapper-header">
             <nav class="menu">
                 <div class="menu-left-side">
                     <a href="">
-                        <img src="img/svg/logo.svg" alt="" srcset="">
+                        <img src="img/svg/logo.svg">
                     </a>
                     <ul class="menu-items">
                         <li class="item"><a href="">Home</a></li>
@@ -29,13 +32,47 @@
                 </div>
                 <div class="menu-right-side">
                     <ul class="menu-items">
-                        <li class="item"><a href="">Cart</a></li>
+                        <li class="item"><a href="">Cart (0<span class="count"></span>)</a></li>
                         <li class="item"><button class="btn">Get a free quote</button></li>
                     </ul>   
                 </div>
             </nav>
         </div>
     </header>
-    
+    <!-- promo -->
+    <section class="promo">
+        <div class="promo-wrapper">
+            <div class="promo-about">
+                <div class="promo-content">
+                    <h1>
+                        Quality cleaning for your home
+                    </h1>
+                    <p>
+                        Condimentum mauris sit cursus amet 
+                        id non neque pharetra nulla ornare 
+                        sed facilisis senectus dapibus nibh 
+                        ultrices eget suscipit aliquet et nulla 
+                        magna lacus penatibus.
+                    </p>
+                </div>
+                <div class="promo-contact">
+                    <button class="btn">Get a free quote</button>
+                    <div class="promo-tell">
+                        <div class="i-wrapper">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="promo-number">
+                            <p class="call">Call us now</p>
+                            <a href="tel:414 567 2109" class="tel">414 567 2109</a>
+                        </div>
+                    </div>                  
+                </div>
+            </div>
+            <div class="promo-image">
+                <!-- <img src="/img/svg/promo.svg" alt="" srcset=""> -->
+            </div>
+        </div>
+    </section>
+    <!-- promo -->
 </body>
 </html>
