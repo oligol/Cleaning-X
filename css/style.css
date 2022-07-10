@@ -869,4 +869,121 @@ header {
   font-size: 28px;
   line-height: 36px;
   color: #FFFFFF;
+}
+
+.coverage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+}
+.coverage-wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.coverage .offers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.coverage .offers .offers-wrap {
+  width: 495px;
+}
+.coverage .offers .offers-wrap h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #211F54;
+  margin: 0;
+}
+.coverage .offers .offers-wrap p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6E7191;
+  margin: 0;
+  margin-top: 20px;
+}
+.coverage .offers .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 25px;
+}
+.coverage .offers .list ul {
+  margin: 0;
+  margin-right: 75px;
+  padding: 0;
+}
+.coverage .offers .list ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.coverage .offers .list ul li .check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25px;
+  height: 25px;
+  background: #EDF5FF;
+  border-radius: 13px;
+  color: #0075FF;
+  margin-right: 10px;
+}
+.coverage .offers .list ul li .text {
+  width: 90px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #211F54;
+}
+.coverage .offers .wrap-btn {
+  margin-top: 50px;
+}
+.coverage .offers .wrap-btn button {
+  width: 215px;
+  height: 75px;
+  background: #0075FF;
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  border: 0;
 }/*# sourceMappingURL=style.css.map */
