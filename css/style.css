@@ -885,8 +885,10 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 110px 0 110px;
 }
 .coverage .offers {
   display: -webkit-box;
@@ -976,6 +978,105 @@ header {
   margin-top: 50px;
 }
 .coverage .offers .wrap-btn button {
+  width: 215px;
+  height: 75px;
+  background: #0075FF;
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  border: 0;
+}
+
+.differences {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 200px;
+}
+.differences-wrap {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 110px 0 110px;
+}
+.differences-wrap .description-wrap .text h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #211F54;
+  margin: 0;
+  margin-top: 10px;
+}
+.differences-wrap .description-wrap .text p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #6E7191;
+  width: 490px;
+  margin: 0;
+  margin-top: 20px;
+}
+.differences-wrap .description-wrap .text .sub-description {
+  font-size: 12px;
+  width: 460px;
+  margin-top: 15px;
+  margin: 0;
+}
+.differences-wrap .description-wrap .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-display: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  width: 400px;
+  margin-top: 25px;
+}
+.differences-wrap .description-wrap .numbers .number {
+  margin: 0;
+  margin-right: 60px;
+}
+.differences-wrap .description-wrap .numbers .number:last-child {
+  margin-right: 0;
+}
+.differences-wrap .description-wrap .numbers p {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 66px;
+  color: #211F54;
+}
+.differences-wrap .description-wrap .numbers p span {
+  font-weight: 400;
+  font-size: 54px;
+  color: #0075FF;
+}
+.differences-wrap .description-wrap .numbers .number-description {
+  font-size: 18px;
+  line-height: 24px;
+  color: #6E7191;
+}
+.differences-wrap .description-wrap .wrap-btn {
+  margin-top: 50px;
+}
+.differences-wrap .description-wrap .wrap-btn button {
   width: 215px;
   height: 75px;
   background: #0075FF;
