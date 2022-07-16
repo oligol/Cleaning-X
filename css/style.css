@@ -998,6 +998,7 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 200px;
+  margin-bottom: 200px;
 }
 .differences-wrap {
   width: 100%;
@@ -1087,4 +1088,168 @@ header {
   line-height: 18px;
   color: #FFFFFF;
   border: 0;
+}
+
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.line .resources-line {
+  width: 1220px;
+  height: 1px;
+  background-color: #DCDDEB;
+}
+
+.resources {
+  margin-top: 240px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+.resources .resources-wrap .resources-heder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.resources .resources-wrap .resources-heder .resources-heder-description {
+  width: 500px;
+}
+.resources .resources-wrap .resources-heder .resources-heder-description h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #211F54;
+  margin: 0;
+}
+.resources .resources-wrap .resources-heder .resources-heder-description p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #6E7191;
+  margin: 0;
+}
+.resources .resources-wrap .resources-heder .resources-heder-btn {
+  width: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.resources .resources-wrap .resources-heder .resources-heder-btn .btn {
+  min-width: 215px;
+  height: 75px;
+  background: #0075FF;
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+  border: none;
+  border: 1px solid #EFF0F6;
+  -webkit-box-shadow: 0px 10px 20px rgba(2, 2, 31, 0.04);
+          box-shadow: 0px 10px 20px rgba(2, 2, 31, 0.04);
+}
+.resources .resources-wrap .resources-heder .resources-heder-btn .btn-browse {
+  background: #FFFFFF;
+  color: #211F54;
+}
+.resources .resources-wrap .resources-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.resources .resources-wrap .resources-items .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 596px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.resources .resources-wrap .resources-items .item .img {
+  z-index: 0;
+}
+.resources .resources-wrap .resources-items .item .description-item {
+  padding-left: 50px;
+  padding-bottom: 65px;
+  width: 484px;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  -webkit-box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.1);
+          box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.1);
+  border-radius: 24px;
+  position: absolute;
+  z-index: 1;
+  top: 306px;
+}
+.resources .resources-wrap .resources-items .item .description-item h3 {
+  margin: 0;
+  margin-top: 50px;
+  width: 400px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+  color: #211F54;
+}
+.resources .resources-wrap .resources-items .item .description-item p {
+  margin: 0;
+  width: 430px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #6E7191;
+}
+.resources .resources-wrap .resources-items .item .description-item .data-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 430px;
+}
+.resources .resources-wrap .resources-items .item .description-item .data-box .data {
+  margin: auto;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: #211F54;
+}
+.resources .resources-wrap .resources-items .item .description-item .data-box .square {
+  width: 50px;
+  height: 50px;
+  background: #0075FF;
 }/*# sourceMappingURL=style.css.map */
