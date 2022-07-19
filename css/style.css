@@ -1108,6 +1108,7 @@ header {
   margin-top: 240px;
   margin-left: 110px;
   margin-right: 110px;
+  margin-bottom: 505px;
 }
 .resources .resources-wrap .resources-heder {
   display: -webkit-box;
@@ -1252,4 +1253,253 @@ header {
   width: 50px;
   height: 50px;
   background: #0075FF;
+}
+
+.request {
+  background: #F7F9FC;
+}
+.request .request-wrap {
+  padding-top: 240px;
+  margin-left: 110px;
+  margin-right: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.request .request-wrap .request-content {
+  margin-top: 145px;
+  width: 480px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.request .request-wrap .request-content .request-content-description h2 {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #211F54;
+}
+.request .request-wrap .request-content .request-content-description p {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #6E7191;
+}
+.request .request-wrap .request-content .request-content-description .request-tell {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.request .request-wrap .request-content .request-content-description .request-tell .i-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 25px;
+  width: 70px;
+  height: 70px;
+  color: #0075FF;
+  background-color: #FFFFFF;
+  border: 1px solid #DCDDEB;
+  border-radius: 50px;
+}
+.request .request-wrap .request-content .request-content-description .request-tell .promo-number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 15px;
+}
+.request .request-wrap .request-content .request-content-description .request-tell .promo-number .call {
+  margin: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #6E7191;
+}
+.request .request-wrap .request-content .request-content-description .request-tell .promo-number a {
+  text-decoration: none;
+  height: 30px;
+  top: 0px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #211F54;
+}
+.request .request-wrap .request-content .line {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.request .request-wrap .request-content .line .request-line {
+  width: 500px;
+  height: 1px;
+  background-color: #DCDDEB;
+}
+.request .request-wrap .request-content .request-content-sub-description h3 {
+  margin: 0;
+  margin-top: 50px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #211F54;
+}
+.request .request-wrap .request-content .request-content-sub-description p {
+  margin: 0;
+  margin-top: 10px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: #6E7191;
+}
+.request .request-wrap .request-content .request-content-sub-description button {
+  margin-top: 10px;
+  width: 257px;
+  height: 73px;
+  background-color: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  -webkit-box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+          box-shadow: 0px 4px 10px rgba(20, 20, 43, 0.04);
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #211F54;
+}
+.request .request-wrap .request-form {
+  margin-top: 85px;
+  margin-left: 60px;
+  margin-right: 60px;
+  width: 670px;
+  height: 910px;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  -webkit-box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+          box-shadow: 0px 2px 6px rgba(20, 20, 43, 0.04);
+  border-radius: 16px;
+}
+.request .request-wrap .request-form .request-form-wrap {
+  margin-top: 85px;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+.request .request-wrap .request-form .request-form-wrap form .form-row {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.request .request-wrap .request-form .request-form-wrap form .form-row .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.request .request-wrap .request-form .request-form-wrap form .form-row .form-group label {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #211F54;
+}
+.request .request-wrap .request-form .request-form-wrap form .form-row .form-group input {
+  margin-top: 10px;
+  width: 260px;
+  height: 72px;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  -webkit-box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+          box-shadow: 0px 2px 12px rgba(20, 20, 43, 0.08);
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #211F54;
+}
+.request .request-wrap .request-form .request-form-wrap form .form-row .form-group textarea {
+  width: 551px;
+  height: 145px;
+  background: #FFFFFF;
+  border: 1px solid #EFF0F6;
+  -webkit-box-shadow: 0px 2px 7px rgba(20, 20, 43, 0.08);
+          box-shadow: 0px 2px 7px rgba(20, 20, 43, 0.08);
+  border-radius: 22px;
+  resize: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  color: #211F54;
+}
+.request .request-wrap .request-form .request-form-wrap form .form-row button {
+  margin-top: 10px;
+  width: 215px;
+  height: 75px;
+  background: #0075FF;
+  border-radius: 14px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: #FFFFFF;
+  border: 0;
+}
+.request .request-wrap .request-form .request-form-wrap form .form-row:first-child {
+  margin-top: 0;
 }/*# sourceMappingURL=style.css.map */
