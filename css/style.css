@@ -127,7 +127,7 @@ header {
           justify-content: flex-start;
   width: 100%;
   height: 720px;
-  background-image: url("/img/svg/promo.svg");
+  background-image: url("img/svg/promo.svg");
   background-repeat: no-repeat;
   background-position: right top;
   background-color: #fffcf6;
