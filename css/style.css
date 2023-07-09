@@ -1980,6 +1980,7 @@ footer .footer-bottom .license .license-item:first-child {
   .promo .promo-wrapper .promo-about .promo-content h1 {
     font-size: 48px;
     line-height: 50px;
+    max-width: 350px;
   }
   .promo .promo-wrapper .promo-about .promo-content p {
     font-size: 18px;
